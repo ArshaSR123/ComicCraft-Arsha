@@ -1,0 +1,35 @@
+# Environment secrets
+.env
+.env.local
+*.env
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyd
+
+# Virtual environments
+comiccraft-env/
+env/
+venv/
+.venv/
+ENV/
+
+# Generated panels and exports (keep directories via .gitkeep)
+static/panels/*
+!static/panels/.gitkeep
+static/exports/*
+!static/exports/.gitkeep
+
+# IDE and OS
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/extensions.json

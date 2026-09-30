@@ -1,0 +1,19 @@
+{
+  "folders": [
+    {
+      "name": "ComicCraft (Project Root)",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "python.defaultInterpreterPath": "${workspaceFolder}/env/Scripts/python.exe",
+    "python.analysis.extraPaths": [
+      "${workspaceFolder}"
+    ],
+    "files.associations": {
+      "*.html": "jinja-html",
+      ".env*": "dotenv"
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell"
+  }
+}
